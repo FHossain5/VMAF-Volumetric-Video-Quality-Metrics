@@ -1,7 +1,7 @@
 # Multiview Video Processing and Quality Assessment
 
 ## Overview
-This document provides step-by-step instructions for processing 44 MP4 files to generate multiview videos, convert them to YUV format, apply compression, and evaluate quality metrics including VMAF, PSNR, SSIM, and MOS.
+This document provides step-by-step instructions for processing MP4 files to generate multiview videos, convert them to YUV format, apply compression, and evaluate quality metrics including VMAF, PSNR, SSIM, and MOS.
 
 ---
 
