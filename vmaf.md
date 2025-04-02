@@ -22,16 +22,15 @@ To document and share your VMAF comparison process on GitHub, follow these steps
 ## How to Interpret VMAF Results
 The JSON output file contains VMAF scores for different frames. The key values to look at include:
 - `VMAF_score`: The overall quality score (0-100). Higher is better.
-- `psnr_y`: Peak Signal-to-Noise Ratio (luminance channel).
-- `ssim_y`: Structural Similarity Index.
 
 Example JSON snippet:
 ```json
-{
-    "VMAF_score": 85.32,
-    "psnr_y": 40.2,
-    "ssim_y": 0.95
-}
+"vmaf": {
+      "min": 46.386961,
+      "max": 73.834192,
+      "mean": 60.450197,
+      "harmonic_mean": 59.993917
+    }
 ```
 
 ### How to Explain VMAF Scores
