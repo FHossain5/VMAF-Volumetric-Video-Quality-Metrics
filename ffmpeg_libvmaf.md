@@ -47,10 +47,6 @@ We compare a **reference Y4M video** (high-quality) with a **compressed Y4M vide
 ## **Understanding the VMAF Output JSON**
 The output file (`.json`) contains detailed quality assessment scores. Key values include:
 - **VMAF_score** → The final quality score (ranges from 0 to 100; higher is better).
-- **psnr_y** → Peak Signal-to-Noise Ratio for the luminance channel.
-- **ssim_y** → Structural Similarity Index for luminance.
-
-**Note:** This method focuses **only on VMAF scores**, not PSNR or SSIM.
 
 ---
 
@@ -71,5 +67,5 @@ A higher score means better quality retention after compression.
 - Store all computed JSON outputs in a structured folder.
 - Compare different compression levels using VMAF.
 
-This ensures a thorough analysis of video compression effects on quality. 🚀
+This ensures a thorough analysis of video compression effects on quality. 
 
