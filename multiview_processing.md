@@ -66,8 +66,8 @@ ffmpeg -i "F:\Dataset\.mp4_dataset\50_videos_different_background\loot_vox10_gre
 After processing, the files are evaluated using multiple quality metrics:
 - **[VMAF](./vmaf.md)** – Video Multi-Method Assessment Fusion
 - **[FFmpeg LibVMAF](./ffmpeg_libvmaf.md)** – FFmpeg-based VMAF calculation
-- **[PSNR](./psnr.md)** – Peak Signal-to-Noise Ratio
-- **[SSIM](./ssim.md)** – Structural Similarity Index
+- **[PSNR](./ffmpeg_psnr.md)** – Peak Signal-to-Noise Ratio
+- **[SSIM](./ffmpeg_ssim.md)** – Structural Similarity Index
 - **[MOS](./mos.md)** – Mean Opinion Score from human evaluators
 
 Each metric is detailed in its respective file linked above.
