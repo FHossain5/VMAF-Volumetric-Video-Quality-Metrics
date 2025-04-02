@@ -1,4 +1,4 @@
-# VMAF (Video Multi-Method Assessment Fusion) Explanation
+# VMAF (Video Multi-Method Assessment Fusion) 
 
 ## What is VMAF?
 VMAF (Video Multi-Method Assessment Fusion) is a video quality metric developed by Netflix. It combines multiple quality assessment algorithms using machine learning to provide a score that correlates well with human perception of video quality. It is widely used to compare compressed video quality against a reference to evaluate compression efficiency.
