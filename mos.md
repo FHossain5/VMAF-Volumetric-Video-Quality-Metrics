@@ -35,21 +35,7 @@ Each evaluator provided ratings for each test video. The rating format was struc
 
 The provided sample Excel file follows this structure for multiple videos.
 
-### 5. Data Analysis
-- The MOS score for each video is calculated as the **average rating across all evaluators**.
-- MOS scores are used to analyze the impact of different compression levels on perceived video quality.
-- The results are compared with objective metrics (VMAF, PSNR, SSIM) to assess the correlation between subjective and objective assessments.
 
-## Implementation in GitHub Repository
-### Files Included:
-- `mos_evaluation.xlsx`: Contains all evaluator ratings.
-- `mos_analysis.py`: A script to compute MOS scores and compare them with objective metrics.
-- `README.md`: Instructions on how to conduct MOS evaluations and process the results.
 
-## Future Work
-- **Increase Evaluator Pool:** Expanding the number of participants to improve statistical significance.
-- **Multi-View Analysis:** Incorporating different viewpoints (Front, Back, Left, Right) in the MOS study.
-- **Comparison with AI-based Metrics:** Exploring deep learning-based quality assessment models.
 
-By including MOS evaluations, this study enhances the understanding of how compression affects the perceptual quality of volumetric videos.
 
